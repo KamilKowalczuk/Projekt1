@@ -1,0 +1,259 @@
+body {
+  margin: auto;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.menu {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  list-style-type: none;
+  padding-right: 25px;
+}
+
+.logo {
+  margin: 0;
+  padding-left: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+.logo span {
+  color: aqua;
+}
+
+.hero {
+  width: 100%;
+  height: 60vh;
+  background-image: url("./Images/beautiful-shot-of-mountains-and-trees-covered-in-snow-and-fog2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-text h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+.hero-text p {
+  padding-bottom: 30px;
+  margin: 0;
+  font-size: 40px;
+  color: rgb(51, 51, 51);
+}
+.hero-text input {
+  padding: 15px 25px 15px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(61, 61, 61);
+  color: white;
+}
+
+.ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3fr;
+}
+.one {
+  grid-column: 1/2;
+}
+.two {
+  grid-column: 2/3;
+}
+.three {
+  grid-template-columns: 3/4;
+}
+
+.ul li {
+  list-style-type: none;
+  text-align: center;
+}
+.ul img {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  border: solid 3px rgb(64, 64, 64);
+  border-radius: 50%;
+}
+
+.ul h2 {
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ul p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(69, 69, 69);
+}
+
+.featured-content h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.border {
+  margin: auto;
+  border-bottom: 3px solid rgb(0, 204, 255);
+  width: 17vh;
+}
+.featured-content p {
+  margin: auto;
+  margin-top: 30px;
+  width: 900px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(70, 70, 70);
+}
+.video {
+  margin: 40px 0 60px 0;
+}
+.video video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  height: 60%;
+}
+
+.img-text {
+  margin: auto;
+  max-width: 900px;
+  height: 250px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+}
+.left-secondary {
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  gap: 5px;
+}
+
+.left-secondary h2 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+  height: 50px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-bottom: solid 2px rgb(0, 242, 255);
+}
+.left-secondary p {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.left-secondary input {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding: 6px 10px 6px 10px;
+  color: rgb(0, 208, 255);
+  background-color: transparent;
+  border: solid 2px rgb(0, 208, 255);
+}
+
+.left-secondary img {
+  margin: auto;
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+.right-secondary {
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  gap: 5px;
+}
+
+.right-secondary h2 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+  height: 50px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border-bottom: solid 2px rgb(0, 242, 255);
+}
+.right-secondary p {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.right-secondary img {
+  margin: auto;
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+.right-secondary input {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding: 10px 14px 10px 14px;
+  color: rgb(0, 208, 255);
+  background-color: transparent;
+  border: solid 2px rgb(0, 208, 255);
+}
+
+.heard h2 {
+  text-align: center;
+}
+.border-heard {
+  margin: auto;
+  width: 110px;
+  border-bottom: solid 2px rgb(0, 242, 255);
+}
+.heard p {
+  text-align: center;
+}
+.heard input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  padding: 15px 30px 15px 30px;
+  color: rgb(0, 208, 255);
+  background-color: transparent;
+  border: solid 2px rgb(0, 208, 255);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 0 50px;
+}
+
+.terms a {
+  color: blue;
+  font-weight: 400;
+}
+
+.footer-menu {
+  display: flex;
+}
+.footer-menu li {
+  list-style-type: none;
+  color: rgb(64, 64, 64);
+}
